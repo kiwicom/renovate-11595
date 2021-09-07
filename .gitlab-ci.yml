@@ -2,7 +2,7 @@ my-ci-job:
   image: alpine:latest
   stage: test
   services:
-    - name: "alpine:3.12.8@\
+    - name: "alpine:3.12.8@sha256:a296b4c6f6ee2b88f095b61e95c7ef4f51ba25598835b4978c9256d8c8ace48a
               sha256:a296b4c6f6ee2b88f095b61e95c7ef4f51ba25598835b4978c9256d8c8ace48a"
       alias: myservice
   script:
